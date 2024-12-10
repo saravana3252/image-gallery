@@ -9,10 +9,10 @@ function Header(props){
                 return data.name.toLowerCase().indexOf(e.target.value.toLowerCase()) !== -1;
               })
               if(e.target.value !== ""){
-              props.superheroFun(filterValue)
+              props.superheroFunc(filterValue)
               }
               else{
-                props.superheroFun(props.superheros)
+                props.superheroFunc(props.superheros)
               }
             }}></input>
             </div>

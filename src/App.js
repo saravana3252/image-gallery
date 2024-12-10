@@ -11,7 +11,7 @@ function App() {
   let [filterData,setFilterData]=useState([])
 
 
-function superheroFun(value){
+function superheroFunc(value){
   setData(value)
 }
 
@@ -26,14 +26,12 @@ useEffect(()=>{
 
   return (
     <div>
-      <Header superheros={filterData} superheroFun={superheroFun}></Header>
-
-
+      <Header superheros={filterData} superheroFunc={superheroFunc}></Header>
       { data.length > 0 ? ( 
       <div className="w-full  bg-black py-3 px-5 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
         {
           data.map((superhero)=>{
-             return <Superhero superheros={superhero}></Superhero>
+             return <Superhero key={superhero.id} superheros={superhero}></Superhero>
           })
         }
      </div>
