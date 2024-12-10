@@ -22,7 +22,7 @@ useEffect(()=>{
     setData(data)
     setFilterData(data)
     console.log(data)
-    setIsLoading(true)
+    setIsLoading(false)
   }).catch((err)=>{
     setIsLoading(false)
   })
