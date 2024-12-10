@@ -2,7 +2,7 @@ function Superhero(props){
     return (
         <div >
             <div className="relative overflow-hidden group">
-                <div id="overlay" className="w-full h-full flex flex-col gap-1 lg:gap-2 justify-center  items-center lg:justify-center bg-black bg-opacity-0 absolute top-0 transition-all duration-500 cursor-pointer group-hover:bg-opacity-50 ">
+                <div id="overlay" className="w-full h-full flex flex-col gap-1 lg:gap-2 justify-center  items-center lg:justify-center bg-black bg-opacity-0 absolute top-0 transition-all duration-500 cursor-pointer group-hover:bg-opacity-70">
                     <h1 className="opacity-0 transition-all duration-500 text-white text-xl md:text-3xl font-bold group-hover:opacity-100">POWERSTATS</h1>
                     <p className="opacity-0 transition-all duration-500 text-white text-md md:text-2xl group-hover:opacity-100">intelligence : {props.superheros.powerstats.intelligence}</p>
                     <p className="opacity-0 transition-all duration-500 text-white text-md md:text-2xl  group-hover:opacity-100">strength : {props.superheros.powerstats.strength}</p>
@@ -13,7 +13,7 @@ function Superhero(props){
                 </div>
                 <img src={props.superheros.images.md} alt="superheroImg"></img>
                 </div> 
-                <div>
+                <div >
                 <p className="font-bold text-center p-2 text-xl md:text-2xl text-white">{props.superheros.name}</p>
                 </div>
         </div>
