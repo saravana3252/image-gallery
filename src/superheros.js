@@ -14,7 +14,7 @@ function Superhero(props){
                 <img src={props.superheros.images.md} alt="superheroImg"></img>
                 </div> 
                 <div>
-                <p className="font-bold text-center text-2xl p-2 text-white">{props.superheros.name}</p>
+                <p className="font-bold text-center p-2 text-xl md:text-2xl text-white">{props.superheros.name}</p>
                 </div>
         </div>
     )
