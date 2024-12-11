@@ -11,7 +11,7 @@ function Superhero(props){
                     <p className="opacity-0 transition-all duration-500 text-white text-md md:text-2xl group-hover:opacity-100">power : {props.superheros.powerstats.power}</p>
                     <p className="opacity-0 transition-all duration-500 text-white text-md md:text-2xl group-hover:opacity-100">combat : {props.superheros.powerstats.combat}</p>
                 </div>
-                <img src={props.superheros.images.md} alt="superheroImg"></img>
+                <img src={props.superheros.images.md} className="rounded-lg" alt="superheroImg"></img>
                 </div> 
                 <div >
                 <p className="font-bold text-center p-2 text-xl md:text-2xl text-white">{props.superheros.name}</p>
