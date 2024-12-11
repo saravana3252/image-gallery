@@ -2,6 +2,9 @@
 import { useEffect, useState } from 'react';
 import Header from './Header';
 import Superhero from './superheros';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+
 
 function App() {
 
@@ -53,7 +56,7 @@ useEffect(()=>{
           })
         }
      </div>
-      ):(<div className='w-full h-[500px] md:h-[850px] lg:h-[400px] bg-black flex justify-center items-center text-4xl font-bold text-white'>character not found</div>)
+      ):(<div className='w-full h-[500px] md:h-[850px] lg:h-[400px] bg-black flex justify-center items-center text-4xl font-bold text-white flex-col gap-2'><FontAwesomeIcon icon={faCircleXmark} />Search Not Found</div>)
       }
       </>
   )
