@@ -17,6 +17,7 @@
 html {
   scrollbar-width:100px; 
   scrollbar-color: yellow black; 
+
 }
 
 .loader {
@@ -64,9 +65,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:black;
+  overflow-y: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
