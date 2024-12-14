@@ -1,7 +1,7 @@
 function Header(props){
     return(
         <div className="w-full bg-black flex flex-col pt-2 items-center">
-            <h1 id="logo" className="font-bold text-6xl text-white md:text-8xl">SUPERNOVA</h1>
+            <h1 id="logo" className="font-bold text-6xl text-white md:text-8xl">POWERDUEL</h1>
             <p className="text-white text-3xl pt-1 font-medium md:text-5xl">IMAGE GALLERY</p>
             <p className="italic text-yellow-100 pt-2">An Epic Gallery of Superheroes and Villains</p>
             <div className="flex justify-center  w-full p-4 ">
