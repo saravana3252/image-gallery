@@ -14,14 +14,15 @@
   -webkit-background-clip: text;
   background-repeat: no-repeat;
   background-size: 150%;
-  /* animation: moveBackground 2.5s infinite linear; */
+  animation: moveBackground 2.5s ease-in-out infinite; 
 }
 
-/* @keyframes moveBackground {
+@keyframes moveBackground {
   0% { background-position: 5% 5%; }
   50% { background-position: 50% 30%; }  
   100% { background-position: 5% 5%; }  
-} */
+}
+
 
 
 html {
