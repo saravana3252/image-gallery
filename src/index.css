@@ -14,7 +14,7 @@
   -webkit-background-clip: text;
   background-repeat: no-repeat;
   background-size: 150%;
-  animation: moveBackground 3s infinite linear;
+  animation: moveBackground 2.5s infinite linear;
 }
 
 @keyframes moveBackground {
