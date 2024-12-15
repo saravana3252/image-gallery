@@ -9,7 +9,7 @@ function Header(props) {
         EPIC
       </h1>
      
-      <p className="text-white text-4xl pt-1 font-medium sm:text-3xl md:text-4xl lg:text-5xl">
+      <p className="text-white text-3xl pt-1 font-medium sm:text-3xl md:text-4xl lg:text-5xl">
         IMAGE GALLERY
       </p>
       
