@@ -18,9 +18,9 @@
 }
 
 @keyframes moveBackground {
-  0% { background-position: 5% 5%; }    /* Start with the image slightly shifted right (5% from left) and 5% from top */
-  50% { background-position: 50% 30%; }  /* Center horizontally (50%), and at the middle vertically (30%) */
-  100% { background-position: 5% 5%; }  /* End with the image slightly shifted right (5% from left) and 5% from top */
+  0% { background-position: 5% 5%; }
+  50% { background-position: 50% 30%; }  
+  100% { background-position: 5% 5%; }  
 }
 
 

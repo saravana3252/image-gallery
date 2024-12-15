@@ -4,15 +4,15 @@ function Header(props) {
 
   return (
     <div className="w-full bg-black flex flex-col pt-2 items-center">
-      {/* Logo with dynamic background */}
+     
       <h1 id="logo"  className="font-bold text-8xl text-white  md:text-8xl lg:text-9xl">
         EPIC
       </h1>
-      {/* Subtitle with adjusted font size */}
-      <p className="text-white text-2xl pt-1 font-medium sm:text-3xl md:text-4xl lg:text-5xl">
+     
+      <p className="text-white text-4xl pt-1 font-medium sm:text-3xl md:text-4xl lg:text-5xl">
         IMAGE GALLERY
       </p>
-      {/* Search bar */}
+      
       <div className="flex justify-center w-full p-3 md:p-4">
         <input
           id="inpVal"
