@@ -6,14 +6,23 @@
 
 
 
-#logo{
- background-image:url("https://media1.tenor.com/m/6XDB3WShCcAAAAAd/marvel-rivals-marvel.gif");
- background-size:cover;
- background-position:10% 75%;
- -webkit-text-fill-color:transparent;
- -webkit-background-clip:text;
- /* background-repeat:no-repeat; */
+#logo {
+  background-image: url("https://townsquare.media/site/442/files/2012/12/avengers-art.jpg?w=780&q=75");
+  background-size: cover;
+  /* background-position: center; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  animation: moveBackground 3s infinite linear;
 }
+
+@keyframes moveBackground {
+  0% { background-position: 5% 5%; }    /* Start with the image slightly shifted right (5% from left) and 5% from top */
+  50% { background-position: 50% 30%; }  /* Center horizontally (50%), and at the middle vertically (30%) */
+  100% { background-position: 5% 5%; }  /* End with the image slightly shifted right (5% from left) and 5% from top */
+}
+
 
 html {
   scrollbar-width:100px; 

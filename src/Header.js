@@ -1,23 +1,19 @@
-import { useEffect, useState } from 'react';
 
 function Header(props) {
-  const [text, setText] = useState('SUPERHERO');
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setText((prevText) => (prevText === 'SUPERHERO' ? 'VILLAIN' : 'SUPERHERO'));
-    }, 3000); 
-
-    
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className="w-full bg-black flex flex-col pt-2 items-center">
-      <h1 id="logo" className="font-bold text-6xl text-white md:text-9xl">{text}</h1>
-      <p className="text-white text-3xl pt-1 font-medium md:text-5xl">IMAGE GALLERY</p>
-      {/* <p className="italic text-yellow-100 pt-2">An Epic Gallery of Superheroes and Villains</p> */}
-      <div className="flex justify-center w-full p-3 md:p-4 ">
+      {/* Logo with dynamic background */}
+      <h1 id="logo"  className="font-bold text-8xl text-white  md:text-8xl lg:text-9xl">
+        EPIC
+      </h1>
+      {/* Subtitle with adjusted font size */}
+      <p className="text-white text-2xl pt-1 font-medium sm:text-3xl md:text-4xl lg:text-5xl">
+        IMAGE GALLERY
+      </p>
+      {/* Search bar */}
+      <div className="flex justify-center w-full p-3 md:p-4">
         <input
           id="inpVal"
           type="search"
