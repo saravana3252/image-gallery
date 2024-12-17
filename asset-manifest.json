@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/epic-img-gallery/static/css/main.98fbd76a.css",
+    "main.js": "/epic-img-gallery/static/js/main.c47455ed.js",
+    "static/media/logogif.gif": "/epic-img-gallery/static/media/logogif.84805e4884569d474f3e.gif",
+    "index.html": "/epic-img-gallery/index.html",
+    "main.98fbd76a.css.map": "/epic-img-gallery/static/css/main.98fbd76a.css.map",
+    "main.c47455ed.js.map": "/epic-img-gallery/static/js/main.c47455ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98fbd76a.css",
+    "static/js/main.c47455ed.js"
+  ]
+}
